@@ -1,0 +1,444 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for POS80C with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v2.1.3.
+*% Copyright 2017
+*FormatVersion: "4.3"
+*FileVersion: "2.1"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "POS80C.PPD"
+*Product: "(POS80C)"
+*Manufacturer: "Printer"
+*ModelName: "Printer POS80C"
+*ShortNickName: "Printer POS80C"
+*NickName: "Printer POS80C, 2.1"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*cupsVersion: 2.1
+*cupsModelNumber: 1
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 100 rastertopos"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: 72mmx297mm
+*PageSize 72mmx20mm/72mmx20mm: "<</PageSize[204 57]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx40mm/72mmx40mm: "<</PageSize[204 113]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx60mm/72mmx60mm: "<</PageSize[204 170]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx80mm/72mmx80mm: "<</PageSize[204 227]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx100mm/72mmx100mm: "<</PageSize[204 283]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx120mm/72mmx120mm: "<</PageSize[204 340]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx140mm/72mmx140mm: "<</PageSize[204 397]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx160mm/72mmx160mm: "<</PageSize[204 454]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx180mm/72mmx180mm: "<</PageSize[204 510]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx200mm/72mmx200mm: "<</PageSize[204 567]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx220mm/72mmx220mm: "<</PageSize[204 624]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx240mm/72mmx240mm: "<</PageSize[204 680]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx260mm/72mmx260mm: "<</PageSize[204 737]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx280mm/72mmx280mm: "<</PageSize[204 794]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx297mm/72mmx297mm: "<</PageSize[204 842]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx300mm/72mmx300mm: "<</PageSize[204 850]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx320mm/72mmx320mm: "<</PageSize[204 907]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx340mm/72mmx340mm: "<</PageSize[204 964]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx360mm/72mmx360mm: "<</PageSize[204 1020]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx380mm/72mmx380mm: "<</PageSize[204 1077]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx400mm/72mmx400mm: "<</PageSize[204 1134]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx420mm/72mmx420mm: "<</PageSize[204 1191]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx440mm/72mmx440mm: "<</PageSize[204 1247]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx460mm/72mmx460mm: "<</PageSize[204 1304]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx480mm/72mmx480mm: "<</PageSize[204 1361]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx500mm/72mmx500mm: "<</PageSize[204 1417]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx520mm/72mmx520mm: "<</PageSize[204 1474]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx540mm/72mmx540mm: "<</PageSize[204 1531]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx560mm/72mmx560mm: "<</PageSize[204 1587]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx580mm/72mmx580mm: "<</PageSize[204 1644]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx600mm/72mmx600mm: "<</PageSize[204 1701]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx620mm/72mmx620mm: "<</PageSize[204 1757]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx640mm/72mmx640mm: "<</PageSize[204 1814]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx660mm/72mmx660mm: "<</PageSize[204 1871]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx680mm/72mmx680mm: "<</PageSize[204 1928]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx700mm/72mmx700mm: "<</PageSize[204 1984]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx720mm/72mmx720mm: "<</PageSize[204 2041]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx740mm/72mmx740mm: "<</PageSize[204 2098]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx760mm/72mmx760mm: "<</PageSize[204 2154]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx780mm/72mmx780mm: "<</PageSize[204 2211]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx800mm/72mmx800mm: "<</PageSize[204 2268]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx820mm/72mmx820mm: "<</PageSize[204 2324]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx840mm/72mmx840mm: "<</PageSize[204 2381]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx860mm/72mmx860mm: "<</PageSize[204 2438]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx880mm/72mmx880mm: "<</PageSize[204 2494]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx900mm/72mmx900mm: "<</PageSize[204 2551]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx920mm/72mmx920mm: "<</PageSize[204 2608]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx940mm/72mmx940mm: "<</PageSize[204 2665]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx960mm/72mmx960mm: "<</PageSize[204 2721]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx980mm/72mmx980mm: "<</PageSize[204 2778]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx1000mm/72mmx1000mm: "<</PageSize[204 2835]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx2000mm/72mmx2000mm: "<</PageSize[204 5669]/ImagingBBox null>>setpagedevice"
+*PageSize 72mmx3000mm/72mmx3000mm: "<</PageSize[204 8504]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: 72mmx297mm
+*PageRegion 72mmx20mm/72mmx20mm: "<</PageSize[204 57]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx40mm/72mmx40mm: "<</PageSize[204 113]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx60mm/72mmx60mm: "<</PageSize[204 170]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx80mm/72mmx80mm: "<</PageSize[204 227]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx100mm/72mmx100mm: "<</PageSize[204 283]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx120mm/72mmx120mm: "<</PageSize[204 340]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx140mm/72mmx140mm: "<</PageSize[204 397]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx160mm/72mmx160mm: "<</PageSize[204 454]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx180mm/72mmx180mm: "<</PageSize[204 510]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx200mm/72mmx200mm: "<</PageSize[204 567]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx220mm/72mmx220mm: "<</PageSize[204 624]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx240mm/72mmx240mm: "<</PageSize[204 680]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx260mm/72mmx260mm: "<</PageSize[204 737]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx280mm/72mmx280mm: "<</PageSize[204 794]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx297mm/72mmx297mm: "<</PageSize[204 842]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx300mm/72mmx300mm: "<</PageSize[204 850]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx320mm/72mmx320mm: "<</PageSize[204 907]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx340mm/72mmx340mm: "<</PageSize[204 964]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx360mm/72mmx360mm: "<</PageSize[204 1020]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx380mm/72mmx380mm: "<</PageSize[204 1077]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx400mm/72mmx400mm: "<</PageSize[204 1134]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx420mm/72mmx420mm: "<</PageSize[204 1191]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx440mm/72mmx440mm: "<</PageSize[204 1247]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx460mm/72mmx460mm: "<</PageSize[204 1304]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx480mm/72mmx480mm: "<</PageSize[204 1361]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx500mm/72mmx500mm: "<</PageSize[204 1417]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx520mm/72mmx520mm: "<</PageSize[204 1474]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx540mm/72mmx540mm: "<</PageSize[204 1531]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx560mm/72mmx560mm: "<</PageSize[204 1587]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx580mm/72mmx580mm: "<</PageSize[204 1644]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx600mm/72mmx600mm: "<</PageSize[204 1701]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx620mm/72mmx620mm: "<</PageSize[204 1757]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx640mm/72mmx640mm: "<</PageSize[204 1814]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx660mm/72mmx660mm: "<</PageSize[204 1871]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx680mm/72mmx680mm: "<</PageSize[204 1928]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx700mm/72mmx700mm: "<</PageSize[204 1984]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx720mm/72mmx720mm: "<</PageSize[204 2041]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx740mm/72mmx740mm: "<</PageSize[204 2098]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx760mm/72mmx760mm: "<</PageSize[204 2154]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx780mm/72mmx780mm: "<</PageSize[204 2211]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx800mm/72mmx800mm: "<</PageSize[204 2268]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx820mm/72mmx820mm: "<</PageSize[204 2324]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx840mm/72mmx840mm: "<</PageSize[204 2381]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx860mm/72mmx860mm: "<</PageSize[204 2438]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx880mm/72mmx880mm: "<</PageSize[204 2494]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx900mm/72mmx900mm: "<</PageSize[204 2551]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx920mm/72mmx920mm: "<</PageSize[204 2608]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx940mm/72mmx940mm: "<</PageSize[204 2665]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx960mm/72mmx960mm: "<</PageSize[204 2721]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx980mm/72mmx980mm: "<</PageSize[204 2778]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx1000mm/72mmx1000mm: "<</PageSize[204 2835]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx2000mm/72mmx2000mm: "<</PageSize[204 5669]/ImagingBBox null>>setpagedevice"
+*PageRegion 72mmx3000mm/72mmx3000mm: "<</PageSize[204 8504]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: 72mmx297mm
+*ImageableArea 72mmx20mm/72mmx20mm: "0 0 204.094497680664 56.692916870117"
+*ImageableArea 72mmx40mm/72mmx40mm: "0 0 204.094497680664 113.385833740234"
+*ImageableArea 72mmx60mm/72mmx60mm: "0 0 204.094497680664 170.078750610352"
+*ImageableArea 72mmx80mm/72mmx80mm: "0 0 204.094497680664 226.771667480469"
+*ImageableArea 72mmx100mm/72mmx100mm: "0 0 204.094497680664 283.464569091797"
+*ImageableArea 72mmx120mm/72mmx120mm: "0 0 204.094497680664 340.157501220703"
+*ImageableArea 72mmx140mm/72mmx140mm: "0 0 204.094497680664 396.850402832031"
+*ImageableArea 72mmx160mm/72mmx160mm: "0 0 204.094497680664 453.543334960938"
+*ImageableArea 72mmx180mm/72mmx180mm: "0 0 204.094497680664 510.236236572266"
+*ImageableArea 72mmx200mm/72mmx200mm: "0 0 204.094497680664 566.929138183594"
+*ImageableArea 72mmx220mm/72mmx220mm: "0 0 204.094497680664 623.6220703125"
+*ImageableArea 72mmx240mm/72mmx240mm: "0 0 204.094497680664 680.315002441406"
+*ImageableArea 72mmx260mm/72mmx260mm: "0 0 204.094497680664 737.007873535156"
+*ImageableArea 72mmx280mm/72mmx280mm: "0 0 204.094497680664 793.700805664062"
+*ImageableArea 72mmx297mm/72mmx297mm: "0 0 204.094497680664 841.889770507812"
+*ImageableArea 72mmx300mm/72mmx300mm: "0 0 204.094497680664 850.393737792969"
+*ImageableArea 72mmx320mm/72mmx320mm: "0 0 204.094497680664 907.086669921875"
+*ImageableArea 72mmx340mm/72mmx340mm: "0 0 204.094497680664 963.779541015625"
+*ImageableArea 72mmx360mm/72mmx360mm: "0 0 204.094497680664 1020.472473144531"
+*ImageableArea 72mmx380mm/72mmx380mm: "0 0 204.094497680664 1077.165405273438"
+*ImageableArea 72mmx400mm/72mmx400mm: "0 0 204.094497680664 1133.858276367188"
+*ImageableArea 72mmx420mm/72mmx420mm: "0 0 204.094497680664 1190.55126953125"
+*ImageableArea 72mmx440mm/72mmx440mm: "0 0 204.094497680664 1247.244140625"
+*ImageableArea 72mmx460mm/72mmx460mm: "0 0 204.094497680664 1303.93701171875"
+*ImageableArea 72mmx480mm/72mmx480mm: "0 0 204.094497680664 1360.630004882812"
+*ImageableArea 72mmx500mm/72mmx500mm: "0 0 204.094497680664 1417.322875976562"
+*ImageableArea 72mmx520mm/72mmx520mm: "0 0 204.094497680664 1474.015747070312"
+*ImageableArea 72mmx540mm/72mmx540mm: "0 0 204.094497680664 1530.708740234375"
+*ImageableArea 72mmx560mm/72mmx560mm: "0 0 204.094497680664 1587.401611328125"
+*ImageableArea 72mmx580mm/72mmx580mm: "0 0 204.094497680664 1644.094482421875"
+*ImageableArea 72mmx600mm/72mmx600mm: "0 0 204.094497680664 1700.787475585938"
+*ImageableArea 72mmx620mm/72mmx620mm: "0 0 204.094497680664 1757.480346679688"
+*ImageableArea 72mmx640mm/72mmx640mm: "0 0 204.094497680664 1814.17333984375"
+*ImageableArea 72mmx660mm/72mmx660mm: "0 0 204.094497680664 1870.8662109375"
+*ImageableArea 72mmx680mm/72mmx680mm: "0 0 204.094497680664 1927.55908203125"
+*ImageableArea 72mmx700mm/72mmx700mm: "0 0 204.094497680664 1984.252075195312"
+*ImageableArea 72mmx720mm/72mmx720mm: "0 0 204.094497680664 2040.944946289062"
+*ImageableArea 72mmx740mm/72mmx740mm: "0 0 204.094497680664 2097.637939453125"
+*ImageableArea 72mmx760mm/72mmx760mm: "0 0 204.094497680664 2154.330810546875"
+*ImageableArea 72mmx780mm/72mmx780mm: "0 0 204.094497680664 2211.023681640625"
+*ImageableArea 72mmx800mm/72mmx800mm: "0 0 204.094497680664 2267.716552734375"
+*ImageableArea 72mmx820mm/72mmx820mm: "0 0 204.094497680664 2324.409423828125"
+*ImageableArea 72mmx840mm/72mmx840mm: "0 0 204.094497680664 2381.1025390625"
+*ImageableArea 72mmx860mm/72mmx860mm: "0 0 204.094497680664 2437.79541015625"
+*ImageableArea 72mmx880mm/72mmx880mm: "0 0 204.094497680664 2494.48828125"
+*ImageableArea 72mmx900mm/72mmx900mm: "0 0 204.094497680664 2551.18115234375"
+*ImageableArea 72mmx920mm/72mmx920mm: "0 0 204.094497680664 2607.8740234375"
+*ImageableArea 72mmx940mm/72mmx940mm: "0 0 204.094497680664 2664.56689453125"
+*ImageableArea 72mmx960mm/72mmx960mm: "0 0 204.094497680664 2721.260009765625"
+*ImageableArea 72mmx980mm/72mmx980mm: "0 0 204.094497680664 2777.952880859375"
+*ImageableArea 72mmx1000mm/72mmx1000mm: "0 0 204.094497680664 2834.645751953125"
+*ImageableArea 72mmx2000mm/72mmx2000mm: "0 0 204.094497680664 5669.29150390625"
+*ImageableArea 72mmx3000mm/72mmx3000mm: "0 0 204.094497680664 8503.9375"
+*DefaultPaperDimension: 72mmx297mm
+*PaperDimension 72mmx20mm/72mmx20mm: "204.094497680664 56.692916870117"
+*PaperDimension 72mmx40mm/72mmx40mm: "204.094497680664 113.385833740234"
+*PaperDimension 72mmx60mm/72mmx60mm: "204.094497680664 170.078750610352"
+*PaperDimension 72mmx80mm/72mmx80mm: "204.094497680664 226.771667480469"
+*PaperDimension 72mmx100mm/72mmx100mm: "204.094497680664 283.464569091797"
+*PaperDimension 72mmx120mm/72mmx120mm: "204.094497680664 340.157501220703"
+*PaperDimension 72mmx140mm/72mmx140mm: "204.094497680664 396.850402832031"
+*PaperDimension 72mmx160mm/72mmx160mm: "204.094497680664 453.543334960938"
+*PaperDimension 72mmx180mm/72mmx180mm: "204.094497680664 510.236236572266"
+*PaperDimension 72mmx200mm/72mmx200mm: "204.094497680664 566.929138183594"
+*PaperDimension 72mmx220mm/72mmx220mm: "204.094497680664 623.6220703125"
+*PaperDimension 72mmx240mm/72mmx240mm: "204.094497680664 680.315002441406"
+*PaperDimension 72mmx260mm/72mmx260mm: "204.094497680664 737.007873535156"
+*PaperDimension 72mmx280mm/72mmx280mm: "204.094497680664 793.700805664062"
+*PaperDimension 72mmx297mm/72mmx297mm: "204.094497680664 841.889770507812"
+*PaperDimension 72mmx300mm/72mmx300mm: "204.094497680664 850.393737792969"
+*PaperDimension 72mmx320mm/72mmx320mm: "204.094497680664 907.086669921875"
+*PaperDimension 72mmx340mm/72mmx340mm: "204.094497680664 963.779541015625"
+*PaperDimension 72mmx360mm/72mmx360mm: "204.094497680664 1020.472473144531"
+*PaperDimension 72mmx380mm/72mmx380mm: "204.094497680664 1077.165405273438"
+*PaperDimension 72mmx400mm/72mmx400mm: "204.094497680664 1133.858276367188"
+*PaperDimension 72mmx420mm/72mmx420mm: "204.094497680664 1190.55126953125"
+*PaperDimension 72mmx440mm/72mmx440mm: "204.094497680664 1247.244140625"
+*PaperDimension 72mmx460mm/72mmx460mm: "204.094497680664 1303.93701171875"
+*PaperDimension 72mmx480mm/72mmx480mm: "204.094497680664 1360.630004882812"
+*PaperDimension 72mmx500mm/72mmx500mm: "204.094497680664 1417.322875976562"
+*PaperDimension 72mmx520mm/72mmx520mm: "204.094497680664 1474.015747070312"
+*PaperDimension 72mmx540mm/72mmx540mm: "204.094497680664 1530.708740234375"
+*PaperDimension 72mmx560mm/72mmx560mm: "204.094497680664 1587.401611328125"
+*PaperDimension 72mmx580mm/72mmx580mm: "204.094497680664 1644.094482421875"
+*PaperDimension 72mmx600mm/72mmx600mm: "204.094497680664 1700.787475585938"
+*PaperDimension 72mmx620mm/72mmx620mm: "204.094497680664 1757.480346679688"
+*PaperDimension 72mmx640mm/72mmx640mm: "204.094497680664 1814.17333984375"
+*PaperDimension 72mmx660mm/72mmx660mm: "204.094497680664 1870.8662109375"
+*PaperDimension 72mmx680mm/72mmx680mm: "204.094497680664 1927.55908203125"
+*PaperDimension 72mmx700mm/72mmx700mm: "204.094497680664 1984.252075195312"
+*PaperDimension 72mmx720mm/72mmx720mm: "204.094497680664 2040.944946289062"
+*PaperDimension 72mmx740mm/72mmx740mm: "204.094497680664 2097.637939453125"
+*PaperDimension 72mmx760mm/72mmx760mm: "204.094497680664 2154.330810546875"
+*PaperDimension 72mmx780mm/72mmx780mm: "204.094497680664 2211.023681640625"
+*PaperDimension 72mmx800mm/72mmx800mm: "204.094497680664 2267.716552734375"
+*PaperDimension 72mmx820mm/72mmx820mm: "204.094497680664 2324.409423828125"
+*PaperDimension 72mmx840mm/72mmx840mm: "204.094497680664 2381.1025390625"
+*PaperDimension 72mmx860mm/72mmx860mm: "204.094497680664 2437.79541015625"
+*PaperDimension 72mmx880mm/72mmx880mm: "204.094497680664 2494.48828125"
+*PaperDimension 72mmx900mm/72mmx900mm: "204.094497680664 2551.18115234375"
+*PaperDimension 72mmx920mm/72mmx920mm: "204.094497680664 2607.8740234375"
+*PaperDimension 72mmx940mm/72mmx940mm: "204.094497680664 2664.56689453125"
+*PaperDimension 72mmx960mm/72mmx960mm: "204.094497680664 2721.260009765625"
+*PaperDimension 72mmx980mm/72mmx980mm: "204.094497680664 2777.952880859375"
+*PaperDimension 72mmx1000mm/72mmx1000mm: "204.094497680664 2834.645751953125"
+*PaperDimension 72mmx2000mm/72mmx2000mm: "204.094497680664 5669.29150390625"
+*PaperDimension 72mmx3000mm/72mmx3000mm: "204.094497680664 8503.9375"
+*MaxMediaWidth: "28346.45703125"
+*MaxMediaHeight: "28346.45703125"
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 22.677165985107 28346.45703125
+*ParamCustomPageSize Height: 2 points 22.677165985107 28346.45703125
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI SystemGray: "<</HWResolution[203 203]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+*OpenUI *OptionPrintLogoBeforePage/Print Logo Before Page: PickOne
+*OrderDependency: 22.200000762939 AnySetup *OptionPrintLogoBeforePage
+*DefaultOptionPrintLogoBeforePage: 0
+*OptionPrintLogoBeforePage 0/Don't Print Logo : ""
+*OptionPrintLogoBeforePage 1/Print Logo 1: "<1C700100>"
+*OptionPrintLogoBeforePage 2/Print Logo 2: "<1C700200>"
+*OptionPrintLogoBeforePage 3/Print Logo 3: "<1C700300>"
+*OptionPrintLogoBeforePage 4/Print Logo 4: "<1C700400>"
+*OptionPrintLogoBeforePage 5/Print Logo 5: "<1C700500>"
+*OptionPrintLogoBeforePage 6/Print Logo 6: "<1C700600>"
+*OptionPrintLogoBeforePage 7/Print Logo 7: "<1C700700>"
+*OptionPrintLogoBeforePage 8/Print Logo 8: "<1C700800>"
+*CloseUI: *OptionPrintLogoBeforePage
+*OpenUI *OptionPrintLogoAfterPage/Print Logo After Page: PickOne
+*OrderDependency: 23 AnySetup *OptionPrintLogoAfterPage
+*DefaultOptionPrintLogoAfterPage: 0
+*OptionPrintLogoAfterPage 0/Don't Print Logo : ""
+*OptionPrintLogoAfterPage 1/Print Logo 1: "<1C700100>"
+*OptionPrintLogoAfterPage 2/Print Logo 2: "<1C700200>"
+*OptionPrintLogoAfterPage 3/Print Logo 3: "<1C700300>"
+*OptionPrintLogoAfterPage 4/Print Logo 4: "<1C700400>"
+*OptionPrintLogoAfterPage 5/Print Logo 5: "<1C700500>"
+*OptionPrintLogoAfterPage 6/Print Logo 6: "<1C700600>"
+*OptionPrintLogoAfterPage 7/Print Logo 7: "<1C700700>"
+*OptionPrintLogoAfterPage 8/Print Logo 8: "<1C700800>"
+*CloseUI: *OptionPrintLogoAfterPage
+*OpenUI *OptionBuzzingBeforePage/Buzzing Before Page: PickOne
+*OrderDependency: 22.200000762939 AnySetup *OptionBuzzingBeforePage
+*DefaultOptionBuzzingBeforePage: 0
+*OptionBuzzingBeforePage 0/Don't Beep: ""
+*OptionBuzzingBeforePage 1/Beep 1 Times: "<1B420104>"
+*OptionBuzzingBeforePage 2/Beep 2 Times: "<1B420204>"
+*OptionBuzzingBeforePage 3/Beep 3 Times: "<1B420304>"
+*OptionBuzzingBeforePage 4/Beep 4 Times: "<1B420404>"
+*OptionBuzzingBeforePage 5/Beep 5 Times: "<1B420504>"
+*OptionBuzzingBeforePage 6/Beep 6 Times: "<1B420604>"
+*OptionBuzzingBeforePage 7/Beep 7 Times: "<1B420704>"
+*OptionBuzzingBeforePage 8/Beep 8 Times: "<1B420804>"
+*OptionBuzzingBeforePage 9/Beep 9 Times: "<1B420904>"
+*CloseUI: *OptionBuzzingBeforePage
+*OpenUI *OptionBuzzingAfterPage/Buzzing After Page: PickOne
+*OrderDependency: 23 AnySetup *OptionBuzzingAfterPage
+*DefaultOptionBuzzingAfterPage: 0
+*OptionBuzzingAfterPage 0/Don't Beep: ""
+*OptionBuzzingAfterPage 1/Beep 1 Times: "<1B420104>"
+*OptionBuzzingAfterPage 2/Beep 2 Times: "<1B420204>"
+*OptionBuzzingAfterPage 3/Beep 3 Times: "<1B420304>"
+*OptionBuzzingAfterPage 4/Beep 4 Times: "<1B420404>"
+*OptionBuzzingAfterPage 5/Beep 5 Times: "<1B420504>"
+*OptionBuzzingAfterPage 6/Beep 6 Times: "<1B420604>"
+*OptionBuzzingAfterPage 7/Beep 7 Times: "<1B420704>"
+*OptionBuzzingAfterPage 8/Beep 8 Times: "<1B420804>"
+*OptionBuzzingAfterPage 9/Beep 9 Times: "<1B420904>"
+*CloseUI: *OptionBuzzingAfterPage
+*OpenUI *OptionKickDrawerBeforeJob/Kick Drawer Before Job: PickOne
+*OrderDependency: 21 AnySetup *OptionKickDrawerBeforeJob
+*DefaultOptionKickDrawerBeforeJob: 0
+*OptionKickDrawerBeforeJob 0/Don't Kick Drawer: ""
+*OptionKickDrawerBeforeJob 1/Kick Out Drawer #1: "<1B70006060>"
+*OptionKickDrawerBeforeJob 2/Kick Out Drawer #2: "<1B70016060>"
+*OptionKickDrawerBeforeJob 3/Kick Out Drawer #1+#2: "<1B700060601B70016060>"
+*CloseUI: *OptionKickDrawerBeforeJob
+*OpenUI *OptionKickDrawerAfterJob/Kick Drawer After Job: PickOne
+*OrderDependency: 24 AnySetup *OptionKickDrawerAfterJob
+*DefaultOptionKickDrawerAfterJob: 0
+*OptionKickDrawerAfterJob 0/Don't Kick Drawer: ""
+*OptionKickDrawerAfterJob 1/Kick Out Drawer #1: "<1B70006060>"
+*OptionKickDrawerAfterJob 2/Kick Out Drawer #2: "<1B70016060>"
+*OptionKickDrawerAfterJob 3/Kick Out Drawer #1+#2: "<1B700060601B70016060>"
+*CloseUI: *OptionKickDrawerAfterJob
+*OpenUI *OptionFeedLinesBeforePage/Feed Lines Before Page: PickOne
+*OrderDependency: 22 AnySetup *OptionFeedLinesBeforePage
+*DefaultOptionFeedLinesBeforePage: 0
+*OptionFeedLinesBeforePage 0/0: ""
+*OptionFeedLinesBeforePage 1/1: "<0A>"
+*OptionFeedLinesBeforePage 2/2: "<0A0A>"
+*OptionFeedLinesBeforePage 3/3: "<0A0A0A>"
+*OptionFeedLinesBeforePage 4/4: "<0A0A0A0A>"
+*OptionFeedLinesBeforePage 5/5: "<0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 6/6: "<0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 7/7: "<0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 8/8: "<0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 9/9: "<0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 10/10: "<0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 11/11: "<0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 12/12: "<0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 13/13: "<0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 14/14: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 15/15: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 16/16: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 17/17: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 18/18: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 19/19: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesBeforePage 20/20: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*CloseUI: *OptionFeedLinesBeforePage
+*OpenUI *OptionFeedLinesAfterPage/Feed Lines After Page: PickOne
+*OrderDependency: 23.10000038147 AnySetup *OptionFeedLinesAfterPage
+*DefaultOptionFeedLinesAfterPage: 0
+*OptionFeedLinesAfterPage 0/0: ""
+*OptionFeedLinesAfterPage 1/1: "<0A>"
+*OptionFeedLinesAfterPage 2/2: "<0A0A>"
+*OptionFeedLinesAfterPage 3/3: "<0A0A0A>"
+*OptionFeedLinesAfterPage 4/4: "<0A0A0A0A>"
+*OptionFeedLinesAfterPage 5/5: "<0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 6/6: "<0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 7/7: "<0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 8/8: "<0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 9/9: "<0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 10/10: "<0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 11/11: "<0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 12/12: "<0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 13/13: "<0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 14/14: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 15/15: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 16/16: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 17/17: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 18/18: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 19/19: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*OptionFeedLinesAfterPage 20/20: "<0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A>"
+*CloseUI: *OptionFeedLinesAfterPage
+*OpenUI *OptionCutPaperBeforePage/Cut Paper Before Page: PickOne
+*OrderDependency: 22.10000038147 AnySetup *OptionCutPaperBeforePage
+*DefaultOptionCutPaperBeforePage: 0
+*OptionCutPaperBeforePage 0/Don't Cut Paper: ""
+*OptionCutPaperBeforePage 1/Feed And Half Cut Paper: "<1D564200>"
+*OptionCutPaperBeforePage 2/Half Cut Paper: "<1D5601>"
+*OptionCutPaperBeforePage 3/Full Cut Paper: "<1D5600>"
+*CloseUI: *OptionCutPaperBeforePage
+*OpenUI *OptionCutPaperAfterPage/Cut Paper After Page: PickOne
+*OrderDependency: 23.200000762939 AnySetup *OptionCutPaperAfterPage
+*DefaultOptionCutPaperAfterPage: 0
+*OptionCutPaperAfterPage 0/Don't Cut Paper: ""
+*OptionCutPaperAfterPage 1/Feed And Half Cut Paper: "<1D564200>"
+*OptionCutPaperAfterPage 2/Half Cut Paper: "<1D5601>"
+*OptionCutPaperAfterPage 3/Full Cut Paper: "<1D5600>"
+*CloseUI: *OptionCutPaperAfterPage
+*OpenUI *OptionCutPaperAfterJob/Cut Paper After Job: PickOne
+*OrderDependency: 24.10000038147 AnySetup *OptionCutPaperAfterJob
+*DefaultOptionCutPaperAfterJob: 1
+*OptionCutPaperAfterJob 0/Don't Cut Paper: ""
+*OptionCutPaperAfterJob 1/Feed And Half Cut Paper: "<1D564200>"
+*OptionCutPaperAfterJob 2/Half Cut Paper: "<1D5601>"
+*OptionCutPaperAfterJob 3/Full Cut Paper: "<1D5600>"
+*CloseUI: *OptionCutPaperAfterJob
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of POS80C.PPD, 29202 bytes.
