@@ -29,8 +29,10 @@ Instruction to install thermal printer via USB on Raspberry Pi
   f.	Advanced Options: Disable Overscan gives a little more working space if using an HDMI monitor
 9.	After the changes, reboot the system and log in as 'pi' again
 10.	By now you should be able to write directly to the USB printer without using the printer driver, but first you need you need to add access rights
+```
   sudo chmod a+w /dev/usb/lp0
   sudo echo -e "Testing 1,2,3… SUCCESS!!!\n\n\n" > /dev/usb/lp0
+```
 11.	Before we install the printer support, need to update the system first
   sudo apt-get update
   sudo apt-get install git cups
