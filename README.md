@@ -79,6 +79,6 @@ lp -o fit-to-page raspberrypi.png
 ``` 
  
 ## Acknowledgement
-- Thanks to Geyi for the driver, you can find their website at http://www.gy-printer.com/cpzx.html
+- Thanks to Geyi for the driver, you can find their website at http://www.gy-printer.com/
 - The instructions were developed based on a number of excellent tutorials on Adafruit https://www.adafruit.com/
 
