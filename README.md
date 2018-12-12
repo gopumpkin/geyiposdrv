@@ -9,7 +9,7 @@ This is the CUPS printer driver for Geyi 58MM/80MM thermal POS printer driver wi
 
 The driver is provided by Geyi, I added instruction and the install script plus the Raspberry Pi logo for testing.  The instruction and script is tested on Raspbian Stretch Lite but may work for other Linux variant system using CUPS.
 
-*Instruction to install thermal printer via USB on Raspberry Pi*
+##Instruction to install thermal printer via USB on Raspberry Pi
  
 1.	Download Raspbian Stretch Lite at https://www.raspberrypi.org/downloads/raspbian/
 2.	Flash the image to an SD card according to https://www.raspberrypi.org/documentation/installation/installing-images/README.md
@@ -78,7 +78,7 @@ echo "This is a test." | lp
 lp -o fit-to-page raspberrypi.png
 ``` 
  
-*Acknowledgement*
+##Acknowledgement
 - Thanks to Geyi for the driver, you can find their website at http://www.gy-printer.com/cpzx.html
 - The instructions were developed based on a number of excellent tutorials on Adafruit https://www.adafruit.com/
 
