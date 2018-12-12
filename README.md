@@ -18,7 +18,7 @@ The driver is provided by Geyi, I added instruction and the install script plus 
 5.	Login with default pi/raspberry user and password
 6.	Run raspi-config
 ```
-  sudo raspi-config
+sudo raspi-config
 ```
 7.	Required settings
   -	Under "Advanced Options", Expand Filesystem
@@ -32,13 +32,13 @@ The driver is provided by Geyi, I added instruction and the install script plus 
 9.	After the changes, reboot the system and log in as 'pi' again
 10.	By now you should be able to write directly to the USB printer without using the printer driver, but first you need you need to add access rights
 ```
-  sudo chmod a+w /dev/usb/lp0
-  sudo echo -e "Testing 1,2,3… SUCCESS!!!\n\n\n" > /dev/usb/lp0
+sudo chmod a+w /dev/usb/lp0
+sudo echo -e "Testing 1,2,3… SUCCESS!!!\n\n\n" > /dev/usb/lp0
 ```
 11.	Before we install the printer support, need to update the system first
 ```
-  sudo apt-get update
-  sudo apt-get install git cups
+sudo apt-get update
+sudo apt-get install git cups
 ```
 12.	Download printer driver PPD files at git hub
 ```
@@ -47,7 +47,7 @@ git clone https://github.com/gopumpkin/geyiposdrv
 13.	Install driver
 ```
 chmod u+x install.sh
-  sudo ./install.sh
+sudo ./install.sh
 ```
 14.	Add pi user to the lpadmin group.  This will allow pi user to access CUPS admin functions
 ```
@@ -56,7 +56,7 @@ sudo usermod -a -G lpadmin pi
 15.	For use in a home network, it would be easier to allow CUPS accessible across the whole network
 ```
 sudo cupsctl --remote-any
-  sudo /etc/init.d/cups restart
+sudo /etc/init.d/cups restart
 ```
 16.	Find out the local IP address of the Raspberry Pi
 ```
